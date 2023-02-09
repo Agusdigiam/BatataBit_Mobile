@@ -117,6 +117,34 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
+    margin: 0 auto;
 }
 
-/*video 12 minuto 8:56*/
+.main-exchange-container .backgroudImg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(./assets/img/Bitcoin.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.main-exchange-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem ;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.main-exchange-container p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+/*Video 15 Minuto 0:00*/
