@@ -359,3 +359,22 @@ main {
     height: 1.8rem;
     color: #808080;
 }
+/*Conocelo Hoy*/
+
+.bitcoin-img {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/img/bitcoinbaby2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bitcoin-img h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 3.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
