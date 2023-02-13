@@ -414,6 +414,7 @@ main {
 
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -490,4 +491,61 @@ main {
     color: var(--just-white);
     font-weight: lighter;
     line-height: 1.8rem;
+}
+
+.plans-container--card .recommended-blue {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    background-color: var(--secondary-blue);
+    border-radius: 8px;
+    color: var(--just-white);
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+
+.plans-container--card .recommended-red {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    background-color: red;
+    border-radius: 8px;
+    color: var(--just-white);
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+
+/*Footer Section*/
+
+footer {
+    display:  flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+footer section ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+footer section a {
+    list-style:none ;
+    text-decoration: none;
+    color: var(--just-white);
+    font-size: 1.2rem;
+    font-weight: bold;
 }
